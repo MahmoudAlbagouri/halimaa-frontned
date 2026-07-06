@@ -330,7 +330,7 @@ const mapProducts = (products = []) =>
       baseStock: 50,
       translations: [
         {
-          name: trans.name ?? "منتج أفنان",
+          name: trans.name ?? "منتج جذور",
           languageCode: trans.languageCode || "ar",
         },
       ],

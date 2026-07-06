@@ -15,7 +15,7 @@
           <Icon name="ph:storefront" class="logo-svg" />
         </div>
         <h1 class="login-title">أهلاً بعودتك</h1>
-        <p class="login-subtitle">سجّل دخولك للمتابعة إلى متجر وسادة</p>
+        <p class="login-subtitle">سجّل دخولك للمتابعة إلى متجر جذور</p>
       </div>
 
       <!-- خطأ من السيرفر -->
@@ -106,9 +106,9 @@ import { nextTick } from "vue";
 definePageMeta({ middleware: ["guest"] });
 
 useSeoMeta({
-  title: "تسجيل الدخول - متجر وسادة",
+  title: "تسجيل الدخول - متجر جذور",
   description:
-    "سجل دخولك الآن لمتابعة طلباتك والحصول على أفضل العروض من متجر وسادة.",
+    "سجل دخولك الآن لمتابعة طلباتك والحصول على أفضل العروض من متجر جذور.",
 });
 
 const authStore = useAuthStore();
