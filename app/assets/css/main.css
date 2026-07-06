@@ -75,76 +75,92 @@
 /* تطبيق الخط كخيار افتراضي للمشروع */
 
 :root {
-  /* Green Palette (من الصورة المرفقة) */
-  --color-green-white: #fdfdfb;
-  --color-green-light: #f5f1e9;
-  --color-green-light-hover: #f0eade;
-  --color-green-light-active: #dfd3bc;
-  --color-green-primary: #987226; /* اللون الأساسي للمتجر */
-  --color-green-hover: #896722;
-  --color-green-active: #7a5b1e;
-  --color-green-dark: #72561d;
-  --color-green-dark-hover: #5b4417;
-  --color-green-dark-active: #443311;
-  --color-green-darker: #35280d;
-  --color-green-black: #291f0a;
+  /* 🌿 Green Palette - ألوان خضراء عصرية مستوحاة من الطبيعة */
+  --color-green-white: #fefae0; /* كريمي فاتح دافئ */
+  --color-green-light: #f1faee; /* أخضر شاحب جداً */
+  --color-green-light-hover: #d8f3dc; /* أخضر باهت للتفاعلات */
+  --color-green-light-active: #b7e4c7; /* أخضر فاتح للحالات النشطة */
+  --color-green-primary: #2d6a4f; /* أخضر غامق عميق - اللون الرئيسي */
+  --color-green-hover: #40916c; /* أخضر متوسط للتفاعلات */
+  --color-green-active: #52b788; /* أخضر حيوي للحالات النشطة */
+  --color-green-dark: #1b4332; /* أخضر داكن جداً */
+  --color-green-dark-hover: #2d6a4f; /* أخضر غامق للتفاعلات */
+  --color-green-dark-active: #1b4332; /* أخضر داكن للحالات النشطة */
+  --color-green-darker: #081c15; /* أخضر شبه أسود */
+  --color-green-black: #081c15; /* أغمدر لون أخضر */
 
-  /* Yellow Palette (من الصورة المرفقة) */
-  --color-yellow-light: #fffff5;
-  --color-yellow-light-hover: #feffdc;
-  --color-yellow-light-active: #feffb6;
-  --color-yellow-secondary: #fbff14; /* لون التنبيهات أو العروض */
-  --color-yellow-hover: #e2e612;
-  --color-yellow-active: #c9cc10;
-  --color-yellow-dark: #bcbf0f;
-  --color-yellow-dark-hover: #97990c;
-  --color-yellow-darker: #585907;
+  /* 🍂 Yellow/Earth Palette - ألوان ترابية دافئة */
+  --color-yellow-light: #fffdf5; /* أصفر كريمي فاتح جداً */
+  --color-yellow-light-hover: #fefae0; /* كريمي دافئ */
+  --color-yellow-light-active: #faedcd; /* بيج ذهبي */
+  --color-yellow-secondary: #e9c46a; /* أصفر ترابي للعروض والتنبيهات */
+  --color-yellow-hover: #d4a373; /* بني ذهبي دافئ */
+  --color-yellow-active: #bc6c25; /* برتقالي ترابي */
+  --color-yellow-dark: #a47148; /* بني متوسط */
+  --color-yellow-dark-hover: #8b5e3c; /* بني غامق */
+  --color-yellow-darker: #6b4423; /* بني ترابي داكن */
 
-  /* Neutrals & UI */
-  --text-main: #1a1a1a;
-  --text-muted: #666666;
-  --bg-body: #fffff5;
-  --border-color: #eeeeee;
+  /* ✨ Neutrals & UI - ألوان محايدة وواجهة المستخدم */
+  --text-main: #1b4332; /* أخضر داكن جداً للنصوص الرئيسية */
+  --text-muted: #52796f; /* أخضر رمادي للنصوص الثانوية */
+  --bg-body: #fefae0; /* كريمي فاتح دافئ - خلفية طبيعية */
+  --border-color: #d8f3dc; /* أخضر شاحب للحدود */
 
-  /* Shadow */
-  --shadow-1: 0px 2px 4px 0px #00000033;
-  --shadow-2: 0px 5px 10px 0px #0000000d;
-  --shadow-3: 0px 5px 10px 0px #00000033;
-  --shadow-4: 0px 10px 20px 0px #0000001a;
-  /* Transition  */
-  --main-transition: 0.3s;
+  /* 💫 Shadow - ظلال ناعمة بلون أخضر شفاف */
+  --shadow-1: 0px 2px 4px rgba(45, 106, 79, 0.08);
+  --shadow-2: 0px 5px 10px rgba(45, 106, 79, 0.12);
+  --shadow-3: 0px 5px 10px rgba(45, 106, 79, 0.15);
+  --shadow-4: 0px 10px 20px rgba(45, 106, 79, 0.18);
+
+  /* ⚡ Transition */
+  --main-transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 * {
   box-sizing: border-box;
   font-family: "Cairo", sans-serif;
   padding: 0;
   margin: 0;
 }
+
 html {
   scroll-behavior: smooth;
 }
+
 body {
   background-color: var(--bg-body);
   color: var(--text-main);
   margin: 0;
   padding: 0;
-  height: 1000px;
-  /* direction: rtl; */
+  min-height: 100vh;
+  line-height: 1.6;
 }
+
 a {
   text-decoration: none;
   color: inherit;
+  transition: var(--main-transition);
 }
+
+a:hover {
+  color: var(--color-green-hover);
+}
+
 ::-webkit-scrollbar {
-  width: 5px;
+  width: 8px;
 }
 
 ::-webkit-scrollbar-track {
-  background-color: var(--color-yellow-light-active);
+  background-color: var(--color-green-light);
 }
 
 ::-webkit-scrollbar-thumb {
   background-color: var(--color-green-primary);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--color-green-hover);
 }
 
 /* _________________ */
@@ -154,41 +170,49 @@ a {
   margin-left: auto;
   margin-right: auto;
 }
+
 @media (min-width: 768px) {
   .container {
     width: 750px;
   }
 }
+
 @media (min-width: 850px) {
   .container {
     width: 830px;
   }
 }
+
 @media (min-width: 992px) {
   .container {
     width: 960px;
   }
 }
+
 @media (min-width: 1200px) {
   .container {
     width: 1180px;
   }
 }
+
 @media (min-width: 1250px) {
   .container {
     width: 1230px;
   }
 }
+
 @media (min-width: 1300px) {
   .container {
     width: 1280px;
   }
 }
+
 @media (min-width: 1400px) {
   .container {
     width: 1340px;
   }
 }
+
 @media (min-width: 1500px) {
   .container {
     width: 1400px;
