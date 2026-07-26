@@ -15,7 +15,7 @@
           <Icon name="ph:storefront" class="logo-svg" />
         </div>
         <h1 class="login-title">أهلاً بعودتك</h1>
-        <p class="login-subtitle">سجّل دخولك للمتابعة إلى متجر جذور</p>
+        <p class="login-subtitle">سجّل دخولك للمتابعة إلى متجر حليمة حجاب</p>
       </div>
 
       <!-- خطأ من السيرفر -->
@@ -106,9 +106,9 @@ import { nextTick } from "vue";
 definePageMeta({ middleware: ["guest"] });
 
 useSeoMeta({
-  title: "تسجيل الدخول - متجر جذور",
+  title: "تسجيل الدخول - متجر حليمة حجاب",
   description:
-    "سجل دخولك الآن لمتابعة طلباتك والحصول على أفضل العروض من متجر جذور.",
+    "سجل دخولك الآن لمتابعة طلباتك والحصول على أفضل العروض من متجر حليمة حجاب.",
 });
 
 const authStore = useAuthStore();

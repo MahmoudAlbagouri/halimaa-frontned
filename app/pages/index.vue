@@ -330,7 +330,7 @@ const mapProducts = (products = []) =>
       baseStock: 50,
       translations: [
         {
-          name: trans.name ?? "منتج جذور",
+          name: trans.name ?? "منتج حليمة حجاب",
           languageCode: trans.languageCode || "ar",
         },
       ],
@@ -347,7 +347,6 @@ const handleImgError = (e) => {
 .home-page {
   min-height: 100vh;
   direction: rtl;
-  background: #f7f4ee;
 }
 
 /* ===== Reveal Animation ===== */

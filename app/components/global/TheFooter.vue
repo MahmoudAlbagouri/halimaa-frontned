@@ -28,7 +28,7 @@
         <div class="brand-section">
           <div class="brand-logo">
             <Icon name="ph:storefront-fill" class="brand-icon" />
-            <span class="brand-name">جذور</span>
+            <span class="brand-name">حليمة حجاب</span>
           </div>
           <p class="brand-desc">
             متجرك المفضل للمنتجات عالية الجودة بأفضل الأسعار. نقدم لك تجربة تسوق
@@ -155,7 +155,7 @@
       <div class="container">
         <div class="copyright-inner">
           <span class="copyright-text">
-            © {{ currentYear }} متجر جذور — جميع الحقوق محفوظة
+            © {{ currentYear }} متجر حليمة حجاب — جميع الحقوق محفوظة
           </span>
           <div class="copyright-links">
             <a href="#" class="cp-link">سياسة الخصوصية</a>

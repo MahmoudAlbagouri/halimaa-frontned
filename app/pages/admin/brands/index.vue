@@ -124,7 +124,7 @@
                       type="text"
                       class="form-input"
                       required
-                      placeholder="مثال: جذور"
+                      placeholder="مثال: حليمة حجاب"
                     />
                   </div>
                 </div>

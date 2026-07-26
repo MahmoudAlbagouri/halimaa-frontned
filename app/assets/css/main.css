@@ -75,60 +75,61 @@
 /* تطبيق الخط كخيار افتراضي للمشروع */
 
 :root {
-  /* ✨ Luxury Gold Palette - هوية ذهبية فاخرة */
+  /* 🌿 Green Palette - Luxury Emerald */
 
-  --color-green-white: #fffcf7; /* أبيض عاجي */
-  --color-green-light: #faf5e9; /* ذهبي فاتح جداً */
-  --color-green-light-hover: #f3e8cc; /* Hover فاتح */
-  --color-green-light-active: #e9d8a6; /* Active فاتح */
+  --color-green-white: #fbf7f3;
+  --color-green-light: #f8f4ef;
+  --color-green-light-hover: #f1ebe4;
+  --color-green-light-active: #e6ddd2;
 
-  --color-green-primary: #c8a24d; /* الذهبي الرئيسي */
-  --color-green-hover: #d8b76a; /* Hover */
-  --color-green-active: #e7c97d; /* Active */
+  --color-green-primary: #18352f;
+  --color-green-hover: #21483f;
+  --color-green-active: #295548;
 
-  --color-green-dark: #9d7829; /* ذهبي داكن */
-  --color-green-dark-hover: #b38834; /* Hover داكن */
-  --color-green-dark-active: #84621e; /* Active داكن */
+  --color-green-dark: #122823;
+  --color-green-dark-hover: #18352f;
+  --color-green-dark-active: #0d1c18;
+  --color-green-darker: #081210;
+  --color-green-black: #050807;
 
-  --color-green-darker: #1a1a1a; /* أسود فحمي */
-  --color-green-black: #0b0b0b; /* أسود رئيسي */
+  /* 🍂 Yellow / Luxury Rose Gold */
 
-  /* 🌟 Secondary Gold Palette */
+  --color-yellow-light: #fffaf5;
+  --color-yellow-light-hover: #f8eee3;
+  --color-yellow-light-active: #ecd8be;
 
-  --color-yellow-light: #fffdf8;
-  --color-yellow-light-hover: #faf2de;
-  --color-yellow-light-active: #f2e1b8;
+  --color-yellow-secondary: #c49a6c;
+  --color-yellow-hover: #d7af84;
+  --color-yellow-active: #ae8156;
 
-  --color-yellow-secondary: #d4af37; /* Gold */
-  --color-yellow-hover: #c89b2f;
-  --color-yellow-active: #b8860b;
+  --color-yellow-dark: #8e6644;
+  --color-yellow-dark-hover: #755337;
+  --color-yellow-darker: #5b3f29;
 
-  --color-yellow-dark: #8d6b2f;
-  --color-yellow-dark-hover: #715320;
-  --color-yellow-darker: #4f3916;
-
-  /* 🖋 Typography */
+  /* ✨ Text */
 
   --text-main: #1b1b1b;
-  --text-muted: #6d6d6d;
+  --text-muted: #666666;
 
-  /* 🎨 Background */
+  /* 🌤 Background */
 
-  --bg-body: #fdfaf5;
-  --border-color: #ead8ab;
+  --bg-body: #fbf7f3;
 
-  /* 🌑 Shadows */
+  /* Border */
 
-  --shadow-1: 0 2px 6px rgba(200, 162, 77, 0.08);
-  --shadow-2: 0 6px 12px rgba(200, 162, 77, 0.12);
-  --shadow-3: 0 10px 20px rgba(200, 162, 77, 0.18);
-  --shadow-4: 0 15px 35px rgba(200, 162, 77, 0.24);
+  --border-color: #e7ddd2;
+
+  /* 💫 Shadow */
+
+  --shadow-1: 0px 2px 6px rgba(0, 0, 0, 0.05);
+  --shadow-2: 0px 8px 18px rgba(0, 0, 0, 0.08);
+  --shadow-3: 0px 12px 28px rgba(0, 0, 0, 0.12);
+  --shadow-4: 0px 18px 40px rgba(0, 0, 0, 0.15);
 
   /* ⚡ Transition */
 
-  --main-transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  --main-transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 * {
   box-sizing: border-box;
   font-family: "Cairo", sans-serif;

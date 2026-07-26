@@ -15,7 +15,9 @@
           <Icon name="ph:user-plus" class="logo-svg" />
         </div>
         <h1 class="register-title">إنشاء حساب جديد</h1>
-        <p class="register-subtitle">انضم إلى متجر جذور واستمتع بأفضل العروض</p>
+        <p class="register-subtitle">
+          انضم إلى متجر حليمة حجاب واستمتع بأفضل العروض
+        </p>
       </div>
 
       <!-- خطوات بصرية -->

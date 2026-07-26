@@ -68,9 +68,9 @@ const handleToggleWishlist = async () => {
 // قراءة الاسم من المصفوفة المعدلة التي أرسلناها من mapProducts
 const productName = computed(() => {
   if (props.product.translations?.length > 0) {
-    return props.product.translations[0]?.name || "منتج جذور";
+    return props.product.translations[0]?.name || "منتج حليمة حجاب";
   }
-  return props.product.name || "منتج جذور";
+  return props.product.name || "منتج حليمة حجاب";
 });
 
 // قراءة الصورة مباشرة من الحقل المسطح
