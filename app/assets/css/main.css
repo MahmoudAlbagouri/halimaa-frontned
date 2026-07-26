@@ -75,44 +75,57 @@
 /* تطبيق الخط كخيار افتراضي للمشروع */
 
 :root {
-  /* 🌿 Green Palette - ألوان خضراء عصرية مستوحاة من الطبيعة */
-  --color-green-white: #fefae0; /* كريمي فاتح دافئ */
-  --color-green-light: #f1faee; /* أخضر شاحب جداً */
-  --color-green-light-hover: #d8f3dc; /* أخضر باهت للتفاعلات */
-  --color-green-light-active: #b7e4c7; /* أخضر فاتح للحالات النشطة */
-  --color-green-primary: #2d6a4f; /* أخضر غامق عميق - اللون الرئيسي */
-  --color-green-hover: #40916c; /* أخضر متوسط للتفاعلات */
-  --color-green-active: #52b788; /* أخضر حيوي للحالات النشطة */
-  --color-green-dark: #1b4332; /* أخضر داكن جداً */
-  --color-green-dark-hover: #2d6a4f; /* أخضر غامق للتفاعلات */
-  --color-green-dark-active: #1b4332; /* أخضر داكن للحالات النشطة */
-  --color-green-darker: #081c15; /* أخضر شبه أسود */
-  --color-green-black: #081c15; /* أغمدر لون أخضر */
+  /* ✨ Luxury Gold Palette - هوية ذهبية فاخرة */
 
-  /* 🍂 Yellow/Earth Palette - ألوان ترابية دافئة */
-  --color-yellow-light: #fffdf5; /* أصفر كريمي فاتح جداً */
-  --color-yellow-light-hover: #fefae0; /* كريمي دافئ */
-  --color-yellow-light-active: #faedcd; /* بيج ذهبي */
-  --color-yellow-secondary: #e9c46a; /* أصفر ترابي للعروض والتنبيهات */
-  --color-yellow-hover: #d4a373; /* بني ذهبي دافئ */
-  --color-yellow-active: #bc6c25; /* برتقالي ترابي */
-  --color-yellow-dark: #a47148; /* بني متوسط */
-  --color-yellow-dark-hover: #8b5e3c; /* بني غامق */
-  --color-yellow-darker: #6b4423; /* بني ترابي داكن */
+  --color-green-white: #fffcf7; /* أبيض عاجي */
+  --color-green-light: #faf5e9; /* ذهبي فاتح جداً */
+  --color-green-light-hover: #f3e8cc; /* Hover فاتح */
+  --color-green-light-active: #e9d8a6; /* Active فاتح */
 
-  /* ✨ Neutrals & UI - ألوان محايدة وواجهة المستخدم */
-  --text-main: #1b4332; /* أخضر داكن جداً للنصوص الرئيسية */
-  --text-muted: #52796f; /* أخضر رمادي للنصوص الثانوية */
-  --bg-body: #fefae0; /* كريمي فاتح دافئ - خلفية طبيعية */
-  --border-color: #d8f3dc; /* أخضر شاحب للحدود */
+  --color-green-primary: #c8a24d; /* الذهبي الرئيسي */
+  --color-green-hover: #d8b76a; /* Hover */
+  --color-green-active: #e7c97d; /* Active */
 
-  /* 💫 Shadow - ظلال ناعمة بلون أخضر شفاف */
-  --shadow-1: 0px 2px 4px rgba(45, 106, 79, 0.08);
-  --shadow-2: 0px 5px 10px rgba(45, 106, 79, 0.12);
-  --shadow-3: 0px 5px 10px rgba(45, 106, 79, 0.15);
-  --shadow-4: 0px 10px 20px rgba(45, 106, 79, 0.18);
+  --color-green-dark: #9d7829; /* ذهبي داكن */
+  --color-green-dark-hover: #b38834; /* Hover داكن */
+  --color-green-dark-active: #84621e; /* Active داكن */
+
+  --color-green-darker: #1a1a1a; /* أسود فحمي */
+  --color-green-black: #0b0b0b; /* أسود رئيسي */
+
+  /* 🌟 Secondary Gold Palette */
+
+  --color-yellow-light: #fffdf8;
+  --color-yellow-light-hover: #faf2de;
+  --color-yellow-light-active: #f2e1b8;
+
+  --color-yellow-secondary: #d4af37; /* Gold */
+  --color-yellow-hover: #c89b2f;
+  --color-yellow-active: #b8860b;
+
+  --color-yellow-dark: #8d6b2f;
+  --color-yellow-dark-hover: #715320;
+  --color-yellow-darker: #4f3916;
+
+  /* 🖋 Typography */
+
+  --text-main: #1b1b1b;
+  --text-muted: #6d6d6d;
+
+  /* 🎨 Background */
+
+  --bg-body: #fdfaf5;
+  --border-color: #ead8ab;
+
+  /* 🌑 Shadows */
+
+  --shadow-1: 0 2px 6px rgba(200, 162, 77, 0.08);
+  --shadow-2: 0 6px 12px rgba(200, 162, 77, 0.12);
+  --shadow-3: 0 10px 20px rgba(200, 162, 77, 0.18);
+  --shadow-4: 0 15px 35px rgba(200, 162, 77, 0.24);
 
   /* ⚡ Transition */
+
   --main-transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
